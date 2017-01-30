@@ -1,8 +1,8 @@
 //
 //  SourceEditorCommand.swift
-//  TemporaryRefugeEx
+//  LineEscapeEx
 //
-//  Created by kenta on 2017/01/29.
+//  Created by kenta on 2017/01/31.
 //  Copyright © 2017年 sidepelican. All rights reserved.
 //
 
@@ -15,7 +15,7 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
         
         let buffer: XCSourceTextBuffer = invocation.buffer
         guard let selection = buffer.selections.firstObject as? XCSourceTextRange else {
-            completionHandler(NSError(domain: "TemporaryRefuge", code: -1, userInfo: [NSLocalizedDescriptionKey: "No selection"]))
+            completionHandler(NSError(domain: "LineEscape", code: -1, userInfo: [NSLocalizedDescriptionKey: "No selection"]))
             return
         }
         
@@ -50,4 +50,5 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
     private func isEmptyLine(_ line: String) -> Bool {
         return line.rangeOfCharacter(from: CharacterSet.whitespacesAndNewlines.inverted) == nil
     }
+    
 }

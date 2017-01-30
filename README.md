@@ -1,5 +1,5 @@
-# TemporaryRefugeEx
-Xcode Source Code Extentsion (Xcode 8+)
+# LineEscapeEx
+Xcode Source Editor Extentsion (Xcode 8+)
 duplicate lines as comment
 
 ## Example

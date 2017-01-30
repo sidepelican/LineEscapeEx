@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>TemporaryRefuge</string>
+	<string>LineEscapeEx</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -44,6 +44,6 @@
 		<string>com.apple.dt.Xcode.extension.source-editor</string>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2017年 sidepelican. All rights reserved.</string>
+	<string>Copyright © 2017年 okamura kenta. All rights reserved.</string>
 </dict>
 </plist>
