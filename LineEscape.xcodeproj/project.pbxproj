@@ -98,7 +98,6 @@
 				378CACF21E56D39E00A5BF3B /* Assets.xcassets */,
 				378CACF01E56D39700A5BF3B /* Info.plist */,
 			);
-			name = LineEscape;
 			path = LineEscape;
 			sourceTree = "<group>";
 		};
@@ -357,7 +356,7 @@
 				DEVELOPMENT_TEAM = R3M694BK62;
 				INFOPLIST_FILE = LineEscape/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.side.junktown.LineEscape;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.side.junktown.lineescape;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -373,7 +372,7 @@
 				DEVELOPMENT_TEAM = R3M694BK62;
 				INFOPLIST_FILE = LineEscape/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.side.junktown.LineEscape;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.side.junktown.lineescape;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -389,7 +388,7 @@
 				INFOPLIST_FILE = LineEscapeEx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.side.junktown.LineEscape.LineEscapeEx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.side.junktown.lineescape.lineescapeex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -406,7 +405,7 @@
 				INFOPLIST_FILE = LineEscapeEx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.side.junktown.LineEscape.LineEscapeEx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.side.junktown.lineescape.lineescapeex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
